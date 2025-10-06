@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;      // Velocidad de movimiento
-    public float gravity = -9.81f;    // Gravedad
+    public float gravity = 0;    // Gravedad
     public float jumpHeight = 1.5f;   // Altura de salto opcional
 
     private CharacterController controller;
